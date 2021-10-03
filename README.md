@@ -72,9 +72,13 @@ In setting up this refractoring process, I first had to copy the original VBA sc
 
 ### **Pros and Cons of Refactoring in General**
 
+Overall, refactoring code has the benefit of being more organized and clean. As the time ran demostrates below, it can also save you and your organization considerable time and in most cases, that will also help you save money. While we limited experience with these languages, refactoring also seems to help simplifying the code and removing some of the complexities. And simplified, cleaner code can help with debugging. As far as disadvantages go, it appears that refactoring can be prone to code defects and, at times, slow down developement.   
+
 ### **Advantages of Refactoring VBA Code**
 
+After going through this refactoring process, the advantages are clear. In particular, you save in coding run times. The two images below democtrate this in that the run times for 2017 and 2018 were .33 and .31 of a second respectively. The run times prior to inserting the refactored code was over a half second, clocking in around .53 of a second. This is a substantial improvement of a 42 percent drop in time to run the code. I have to imagine with much larger datasets this could save considerable time and increase efficiency for an orgnization, business or a programmer.   
 
 
+![This is an image](https://github.com/jzaragoza21/stock-analysis/blob/main/VBA_Resources/VBA_Challenge_2017.png)
 
 ![This is an image](https://github.com/jzaragoza21/stock-analysis/blob/main/VBA_Resources/VBA_Challenge_2018.png)

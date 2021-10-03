@@ -18,9 +18,11 @@ The stock analysis data that is provided includes two sheets of data on twelve d
 In setting up this refractoring process, I first had to copy the original VBA script so that I could set up input box, format my output sheet, activate the righ worksheet and initialize my array of tickers. Thereafter, I copied the challenge steps into my new module and macro and began instering the new refractor code. The following is a breakdown of the refractor code:
 
 '1a) Create a ticker Index
+      
       tickerIndex = 0
     
 '1b) Create three output arrays
+    
     Dim tickerVolumes(12) As Long
     Dim tickerStartingPrices(12) As Single
     Dim tickerEndingPrices(12) As Single

@@ -65,7 +65,9 @@ In setting up this refractoring process, I first had to copy the original VBA sc
   
   For i = 0 To 11      
     Worksheets("All Stocks Analysis").Activate
+    
     Cells(4 + i, 1).Value = tickers(i)
     Cells(4 + i, 2).Value = tickerVolumes(i)
     Cells(4 + i, 3).Value = tickerEndingPrices(i) / tickerStartingPrices(i) - 1        
+  
   Next i

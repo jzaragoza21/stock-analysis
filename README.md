@@ -1,11 +1,11 @@
 # **Stock Analysis With Excel VBA** 
-Click here to view the Excel file: [VBA Challenge - Stock Aanalysis](https://github.com/jzaragoza21/stock-analysis/blob/main/VBA_challenge.xlsm)
+Click here to view the Excel file: [VBA Challenge - Stock Analysis](https://github.com/jzaragoza21/stock-analysis/blob/main/VBA_challenge.xlsm)
 
 ## **Overview of Project**
 
 ### **Purpose**
 
-The overall purpose of the challenge was to use our knowledge of VBA and use the starter code provided to refractor the Module2_VBA_Script. As we did in the module, we will do this to loop through and collect all of the 2017 and 2018 stock analysis data one time. However, our goal this time will be to see whether refractoring the code made the VBA_script run faster this time. In essence, there are many times in which we have to increase efficiency in writing code on the job and our objective here is to determine whether refractoring does in fact increase efficiency.   
+The overall purpose of the challenge was to use our knowledge of VBA and use the starter code provided to refaactor the Module2_VBA_Script. As we did in the module, we will do this to loop through and collect all of the 2017 and 2018 stock analysis data one time. However, our goal this time will be to see whether refactoring the code made the VBA_script run faster this time. In essence, there are many times in which we have to increase efficiency in writing code on the job and our objective here is to determine whether refactoring does in fact increase efficiency.   
 
 ### **Data**
 
@@ -15,7 +15,7 @@ The stock analysis data that is provided includes two sheets of data on twelve d
 
 ### **Analysis**
 
-In setting up this refractoring process, I first had to copy the original VBA script so that I could set up input box, format my output sheet, activate the righ worksheet and initialize my array of tickers. Thereafter, I copied the challenge steps into my new module and macro and began instering the new refractor code. The following is a breakdown of the refractor code:
+In setting up the refactoring process, I first had to copy the original VBA script so that I could set up input box, format my output sheet, activate the righ worksheet and initialize my array of tickers. Thereafter, I copied the challenge steps into my new macro and began inserting the new refaactor code. The following is a breakdown of the refactor code:
 
     '1a) Create a ticker Index
     tickerIndex = 0

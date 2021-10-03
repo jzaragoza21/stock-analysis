@@ -61,8 +61,7 @@ Next i
             tickerIndex = tickerIndex + 1
         End If
             
-    
-Next i
+    Next i
 
     
     '4) Loop through your arrays to output the Ticker, Total Daily Volume, and Return.

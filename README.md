@@ -67,3 +67,14 @@ In setting up this refractoring process, I first had to copy the original VBA sc
         Cells(4 + i, 3).Value = tickerEndingPrices(i) / tickerStartingPrices(i) - 1
         
     Next i
+
+## **Summary**
+
+### **Pros and Cons of Refactoring in General**
+
+### **Advantages of Refactoring VBA Code**
+
+
+
+
+![This is an image](https://github.com/jzaragoza21/stock-analysis/blob/main/VBA_Resources/VBA_Challenge_2018.png)
